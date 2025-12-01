@@ -1,30 +1,14 @@
-# 🦇 Bat Clock — DIY Arduino Alarm Clock
+# 🦇 Bat Clock
 
-Bat Clock is a simple but clean digital alarm clock built using an Arduino, a DS3231 real-time clock module, and physical buttons for input.  
-It displays real time, lets you view/set an alarm, and fits neatly into a 3D-printed enclosure.
+This is a simple digital alarm clock with a Batman theme to it.
 
----
-
-## ✨ Features
-
-- Accurate timekeeping with **DS3231 RTC**
-- **Three operating modes** controlled by the *Mode* button:
-  - **Normal Mode** → shows current real time
-  - **Alarm Mode** → view/edit alarm time
-  - **Set Mode** → adjust the actual clock time
-- **Buttons:**
-  - **Mode** — cycle between modes
-  - **Hour Increment** — increases hour value during editing
-  - **Enter** — save time/alarm settings
-- **Potentiometer** to set minutes (0–59)
-- Alarm pin for buzzer/DFPlayer (optional)
-- Fully 3D-printed enclosure
+A simulation on how the project works can be found on Wokwi [here](https://wokwi.com/projects/446649526542284801).
 
 ---
 
-## 🧰 Hardware Used
+## 🧰 Parts used
 
-- Arduino Nano or Uno  
+- Arduino Uno  
 - **DS3231 RTC Module**
   - SDA → A4  
   - SCL → A5  
@@ -33,36 +17,34 @@ It displays real time, lets you view/set an alarm, and fits neatly into a 3D-pri
   - Mode  
   - Hour Increment  
   - Enter  
-- **1× Potentiometer** (A0) — controls minutes  
-- Optional: Buzzer (digital output pin)  
-- 5V power  
-- 3D-printed enclosure  
+- **A Potentiometer** (A0) 
+- Buzzer 
 
 ---
 
 ## 🔧 Mode Overview
 
 ### **Normal Mode**
-- Displays the current real time.  
+- Displays the current time.  
 - If current time == alarm time → buzzer output triggers.
 
 ---
 
 ### **Alarm Mode**
-Used to **view or edit the alarm time**.
+Used to **set alarm time**.
 
-- **Hour Increment button** → changes hour  
+- **Hour Increment button** → increases hour
 - **Potentiometer** → changes minutes  
-- **Enter** → saves alarm time
+- **Enter** → sets the alarm time
 
 ---
 
 ### **Set Mode**
-Used to **change the actual clock time stored in the DS3231**.
+Used to **change the actual clock time**.
 
-- **Hour Increment button** → changes hour  
+- **Hour Increment button** → increases hour  
 - **Potentiometer** → changes minutes  
-- **Enter** → saves clock time to RTC
+- **Enter** → set the time
 
 ---
 
@@ -72,13 +54,16 @@ Here is an image of the enclosure design:
 
 ![Enclosure Preview](CAD_image.jpeg)
 
-
-The case is designed for:
-
-- TM1637 display  
-- 3 buttons (Mode, Enter, Hour Increment)  
-- Potentiometer knob  
-- Optional buzzer  
+You can find the latest version of the 3d model here
+```
+Bat Clock/
+├── 3D Models/
+   └── Bat Clock v2.f3d
+```
 
 ---
+## Disclaimer
+The project is not done and stil need to under go some revisions especially with the 3d model.
+
+Still yet to check the tolerances and make sure everything fits well
 
