@@ -52,7 +52,7 @@ Used to **change the actual clock time**.
 
 Here is an image of the enclosure design:
 
-![Enclosure Preview](CAD_image.jpeg)
+![Enclosure Preview](CAD_image.png)
 
 You can find the latest version of the 3d model here
 ```
