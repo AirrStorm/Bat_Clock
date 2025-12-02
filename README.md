@@ -61,6 +61,19 @@ Bat Clock/
    └── Bat Clock v2.f3d
 ```
 
+And you can find the different parts for 3d printing here:
+```
+Bat Clock/
+├── 3D Models/
+  │ 
+  └── Parts/
+      ├── Base.stl
+      ├── Lid.stl
+      ├── Pole.stl
+      ├── Bat symbol.stl
+      └── Bat Lid.stl
+
+```
 ---
 ## Schematic
 Here is a preview of the schematic design:
