@@ -54,12 +54,27 @@ Here is an image of the enclosure design:
 
 ![Enclosure Preview](CAD_image.png)
 
-You can find the latest version of the 3d model here
+You can find the latest version of the 3d model here:
 ```
 Bat Clock/
 ├── 3D Models/
    └── Bat Clock v2.f3d
 ```
+
+---
+## Schematic
+Here is a preview of the schematic design:
+
+![Schematic Preview](Schematic_image.png)
+
+You can find the schematic here:
+```
+Bat Clock/
+├── Schematics/
+   └── alarm_clock.kicad_sch
+```
+
+---
 
 ---
 ## Disclaimer
