@@ -75,16 +75,17 @@ Bat Clock/
 
 ```
 ---
-## Schematic
-Here is a preview of the schematic design:
+## Wiring
+Here is a preview of the wiring
+:
 
-![Schematic Preview](Schematic_image.png)
+![Schematic Preview](alarm_clock.jpg)
 
-You can find the schematic here:
+You can find the wiring diagram here:
 ```
 Bat Clock/
 ├── Schematics/
-   └── alarm_clock.kicad_sch
+   └── alarm_clock.jpg
 ```
 
 ---
